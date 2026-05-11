@@ -42,12 +42,17 @@ All 14 diagrams ship in three variants: minimal light, minimal dark, and full-ed
 </tr>
 <tr>
   <td align="center"><img src="docs/screenshots/tree.png" alt="Tree"><br><b>Tree</b><br><sub>Parent → children</sub></td>
-  <td align="center"><img src="docs/screenshots/layers.png" alt="Layers"><br><b>Layer stack</b><br><sub>Stacked abstractions</sub></td>
+  <td align="center"><img src="docs/screenshots/org-chart.png" alt="Org chart"><br><b>Org chart</b><br><sub>Ownership + routing</sub></td>
   <td align="center"><img src="docs/screenshots/venn.png" alt="Venn"><br><b>Venn</b><br><sub>Set overlap</sub></td>
 </tr>
 <tr>
+  <td align="center"><img src="docs/screenshots/layers.png" alt="Layers"><br><b>Layer stack</b><br><sub>Stacked abstractions</sub></td>
   <td align="center"><img src="docs/screenshots/pyramid.png" alt="Pyramid"><br><b>Pyramid / funnel</b><br><sub>Ranked hierarchy or drop-off</sub></td>
+  <td align="center">&nbsp;</td>
+</tr>
+<tr>
   <td align="center"><img src="docs/screenshots/quadrant-consultant.png" alt="Consultant 2×2"><br><b>Consultant 2×2</b><br><sub>Scenario matrix · named cells</sub></td>
+  <td align="center">&nbsp;</td>
   <td align="center">&nbsp;</td>
 </tr>
 </table>
@@ -180,6 +185,7 @@ diagram-design/
 │   ├── type-quadrant.md
 │   ├── type-nested.md
 │   ├── type-tree.md
+│   ├── type-org-chart.md
 │   ├── type-layers.md
 │   ├── type-venn.md
 │   ├── type-pyramid.md
@@ -188,7 +194,7 @@ diagram-design/
 ├── assets/
 │   ├── index.html                   — live gallery, tabbed
 │   ├── template*.html               — scaffolds for new diagrams
-│   ├── example-<type>.html          — 3 variants × 13 types
+│   ├── example-<type>.html          — 3 variants × 14 types
 │   └── example-quadrant-consultant.html  — consultant-special 2×2 scenario matrix
 └── docs/screenshots/                — the images in this README
 ```
